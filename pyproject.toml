@@ -1,0 +1,19 @@
+[project]
+name = "task"
+version = "0.1.0"
+description = "A Python CLI tool to fetch research papers from PubMed based on user queries."
+authors = [{ name = "Tejashwini2903", email = "141641946+Tejashwini2903@users.noreply.github.com" }]  # ✅ Correct format
+readme = "README.md"
+requires-python = ">=3.11"
+
+dependencies = [
+    "requests>=2.32.3,<3.0.0",
+    "pandas>=2.2.3,<3.0.0",
+    "lxml>=5.3.1,<6.0.0"
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
